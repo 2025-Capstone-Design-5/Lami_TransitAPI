@@ -1,0 +1,15 @@
+{
+  "configVersion": "2.7.0",
+  "routingDefaults": {
+    "numItineraries": 3,
+    "waitReluctance": 1.0,
+    "transferPenalty": 0
+  },
+  "transit": {
+    "searchThreadPoolSize": 16,
+    "scheduledTripBinarySearchThreshold": 50,
+    "iterationDepartureStepInSeconds": 60,
+    "maxNumberOfTransfers": 3
+  },
+  "updaters": []
+}

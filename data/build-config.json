@@ -1,0 +1,28 @@
+{
+  "configVersion": "2.7.0",
+  "embedRouterConfig": true,
+  "areaVisibility": true,
+
+  "osm": [
+    {
+      "source": "south-korea-latest.osm.pbf",
+      "osmTagMapping": "default",
+      "timeZone": "Asia/Seoul"
+    }
+  ],
+
+  "transitFeeds": [
+    {
+      "type": "gtfs",
+      "source": "gtfs.zip"
+    }
+  ],
+
+  "gtfsDefaults": {
+    "blockBasedInterlining": true,
+    "discardMinTransferTimes": false
+  },
+
+  "maxStopToShapeSnapDistance": 80.0,
+  "maxTransferDuration": "PT800S"
+}

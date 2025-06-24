@@ -1,0 +1,15 @@
+{
+  "otpFeatures": {
+    "APIServerInfo": true,
+    "APIUpdaterStatus": true,
+    "ActuatorAPI": true,
+    "DebugUi": true,
+    "FaresV2": true,
+    "DataOverlay": false,
+    "SandboxAPIGeocoder": true,
+    "TransmodelGraphQlApi": true,
+    "GtfsGraphQlApi": true,
+    "OptimizeTransfers": true,
+    "ParallelRouting": true
+  }
+}
